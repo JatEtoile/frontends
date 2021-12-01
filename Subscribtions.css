@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+header>nav {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+}
+
+h1{
+  font-family: 'Josefin Slab', serif;
+
+  font-weight: bolder;
+}
+
+div > h4{
+  font-family: 'Open Sans', sans-serif;
+}
+
+div.card-price {
+  background: #ffffff;
+}
+
+div {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+
+div.card {
+  margin: 1.5rem 0;
+}
+
+div.card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+div.card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+div .card-price .period {
+  font-size: 0.8rem;
+}
+
+div {
+  margin-bottom: 1rem;
+}
+
+div .card-price .text-muted {
+  opacity: 0.7;
+}
+
+button {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+div .card:hover {
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+div .card:hover .btn {
+  opacity: 1;
+}

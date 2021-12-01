@@ -1,0 +1,39 @@
+@charset "utf-8";
+header>nav {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+h4{
+  font-family: 'Open Sans', sans-serif;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.row img {
+  padding: 50px;
+  transition: transform .2s;
+  margin: 0 auto;
+  filter: grayscale(100%);
+}
+
+.row img:hover {
+  max-width: 100%;
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+}

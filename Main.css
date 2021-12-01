@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+header>nav {
+   font-family: 'Abril Fatface', cursive;
+   font-size: 20px;
+}
+
+/* .row img {
+   padding: 50px;
+   transition: transform .2s;
+   margin: 0 auto;
+   filter: grayscale(100%);
+}
+
+.row img:hover {
+   max-width: 100%;
+   -ms-transform: scale(1.5);
+   /* IE 9 */
+
+/* Safari 3-8 */
+
+h2{
+   font-family: 'Abril Fatface', cursive;
+}
+
+body .row h3 {
+   font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 10px;
+}
+
+body, html {
+   height: 100%;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+main >img{
+   filter: grayscale(1);
+}
